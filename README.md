@@ -23,7 +23,16 @@ Encoder–Decoder, và quá trình huấn luyện cho bài toán dịch máy.
 - model6.ipynb: Kĩ thuật áp dụng : Deep Network
 - model7.ibynb: Kĩ thuật áp dụng : Unrestrained Transformer
 # 5. Kết quả Bleu và Gemini
-  <img width="406" height="561" alt="image" src="https://github.com/user-attachments/assets/cc462422-35c5-4266-8269-afc4f8665779" />
+  | Model    | BleuScore | Gemini Score |
+|----------|-----------|--------------|
+| Baseline | 9.11      | 35.95        |
+| model2   | 12.21     | 47.25        |
+| model3   | 19.16     | 62.68        |
+| model4   | 15.55     | 36.23        |
+| model5   | 16.39     | 46.85        |
+| model6   | 25.61     | 56.54        |
+| model7   | 36.23     | 59.40        |
+
 
 # II. Bài toán phụ :VLSP Shared Task Machine Translation
 # 1. Mục tiêu :
