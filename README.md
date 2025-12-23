@@ -56,13 +56,13 @@ Train/Val/Test : 450,000/50,000/3,000
 - METEOR: 0.64
 - Phân tích lỗi cho thấy mô hình dịch tương đối chính xác các thuật ngữ chuyên sâu
 ## B. Sử dụng llm model.
-**1. Mô hình cơ sở.**
+# 1. Mô hình cơ sở.
 - NLLB-200 – là mô hình được huấn luyện chuyên biệt cho việc dịch đa ngữ, phiên bản 600M tham số nhẹ tuy nhiên vẫn đảm bảo được chất lượng.
-**2. Kĩ thuật tinh chỉnh: LoRA**
+# 2. Kĩ thuật tinh chỉnh: LoRA
 - Cơ chế: Đóng băng mô hình gốc, chỉ thêm vào các ma trận hạng thấp vào các lớp Attention (q_proj, v_proj, k_proj) và Feed-Forward (fc1, fc2).	
 - Tham số huấn luyện: Chỉ train khoảng 1-3% tổng số tham số mô hình.
 - Thư viện: Sử dụng PEFT của Hugging Face.
-**3. Kết quả**
+# 3. Kết quả
 - BLEU Score: 33.6
 - METEOR: 0.6199
 - TER: 62.31
