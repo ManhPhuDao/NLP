@@ -11,7 +11,7 @@ Encoder–Decoder, và quá trình huấn luyện cho bài toán dịch máy.
 # 3. Dữ liệu
 - Cặp ngôn ngữ: EN_VI
 - Source: 
-  + Hugging Face 'PhoMT': https://huggingface.co/datasets/ura-hcmut/PhoMT
+  + Hugging Face 'PhoMT': https://drive.google.com/drive/u/1/folders/1PbUlXXUoUTHuhSSxJLsW1nod-PZJyHsR
   + Train/Val/Test: 3,000,000/20000/20000
 # 4. Cấu trúc thư mục
 - Gồm 8 model với việc tiếp cận theo các hướng khác nhau để phát triển lên từ baseline
